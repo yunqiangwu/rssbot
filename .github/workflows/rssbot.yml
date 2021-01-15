@@ -2,9 +2,9 @@
 name: DingDingRssBot
 
 on:
-  schedule:
-    - cron: '0 0/1 * * *'
-    
+  push:
+    branches:
+    - test-ci
 jobs:
   build:
     runs-on: ubuntu-latest
